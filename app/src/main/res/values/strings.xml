@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ValueConverter</string>
+    <string name="celsius">Celsius</string>
+    <string name="converter">Converter</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="miles">Miles</string>
+    <string name="kilograms">Kilograms</string>
+    <string name="liters">Liters</string>
+    <string name="pounds">Pounds</string>
+    <string name="gallons">Gallons</string>
+</resources>
