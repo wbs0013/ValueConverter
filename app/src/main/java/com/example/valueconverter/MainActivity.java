@@ -48,9 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
                     Log.v("F:", "" + f);
                     Log.v("C:", "" + c);
-
-
-
                 }
 
                 if (fahrenheit.hasFocus() && (fahrenheit.getText().toString().equals(""))) {
@@ -119,7 +116,6 @@ public class MainActivity extends AppCompatActivity {
                     miles.setText("");
                 }
 
-
             }
 
             @Override
@@ -150,7 +146,6 @@ public class MainActivity extends AppCompatActivity {
                 if (miles.hasFocus() && (miles.getText().toString().equals(""))) {
                     kilometers.setText("");
                 }
-
 
             }
 
@@ -244,7 +239,6 @@ public class MainActivity extends AppCompatActivity {
                     pounds.setText("");
                 }
 
-
             }
 
             @Override
@@ -275,7 +269,6 @@ public class MainActivity extends AppCompatActivity {
                 if (pounds.hasFocus() && (pounds.getText().toString().equals(""))) {
                     kilograms.setText("");
                 }
-
 
             }
 
