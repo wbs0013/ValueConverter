@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.widget.EditText;
 
 import java.text.DecimalFormat;
@@ -45,6 +46,11 @@ public class MainActivity extends AppCompatActivity {
                     DecimalFormat df = new DecimalFormat("##.##");
                     celsius.setText(df.format(c));
 
+                    Log.v("F:", "" + f);
+                    Log.v("C:", "" + c);
+
+
+
                 }
 
                 if (fahrenheit.hasFocus() && (fahrenheit.getText().toString().equals(""))) {
@@ -73,6 +79,9 @@ public class MainActivity extends AppCompatActivity {
                     DecimalFormat df = new DecimalFormat("##.##");
                     fahrenheit.setText(df.format(f));
 
+                    Log.v("F:", "" + f);
+                    Log.v("C:", "" + c);
+
                 }
 
                 if (celsius.hasFocus() && (celsius.getText().toString().equals(""))) {
@@ -100,6 +109,9 @@ public class MainActivity extends AppCompatActivity {
                     double m = km / 1.609;
                     DecimalFormat df = new DecimalFormat("##.##");
                     miles.setText(df.format(m));
+
+                    Log.v("km:", "" + km);
+                    Log.v("mi:", "" + m);
 
                 }
 
@@ -130,6 +142,9 @@ public class MainActivity extends AppCompatActivity {
                     DecimalFormat df = new DecimalFormat("##.##");
                     kilometers.setText(df.format(km));
 
+                    Log.v("km:", "" + km);
+                    Log.v("mi:", "" + m);
+
                 }
 
                 if (miles.hasFocus() && (miles.getText().toString().equals(""))) {
@@ -159,6 +174,9 @@ public class MainActivity extends AppCompatActivity {
                     DecimalFormat df = new DecimalFormat("##.##");
                     gallons.setText(df.format(g));
 
+                    Log.v("ltr:", "" + l);
+                    Log.v("gal:", "" + g);
+
                 }
 
                 if (liters.hasFocus() && (liters.getText().toString().equals(""))) {
@@ -186,6 +204,9 @@ public class MainActivity extends AppCompatActivity {
                     double l = g * 3.785;
                     DecimalFormat df = new DecimalFormat("##.##");
                     liters.setText(df.format(l));
+
+                    Log.v("ltr:", "" + l);
+                    Log.v("gal:", "" + g);
                 }
 
                 if (gallons.hasFocus() && (gallons.getText().toString().equals(""))) {
@@ -213,6 +234,9 @@ public class MainActivity extends AppCompatActivity {
                     double lb = kg * 2.205;
                     DecimalFormat df = new DecimalFormat("##.##");
                     pounds.setText(df.format(lb));
+
+                    Log.v("kg:", "" + kg);
+                    Log.v("lbs:", "" + lb);
 
                 }
 
@@ -242,6 +266,9 @@ public class MainActivity extends AppCompatActivity {
                     double kg = lb / 2.205;
                     DecimalFormat df = new DecimalFormat("##.##");
                     kilograms.setText(df.format(kg));
+
+                    Log.v("kg:", "" + kg);
+                    Log.v("lbs:", "" + lb);
 
                 }
 
